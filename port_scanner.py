@@ -103,7 +103,7 @@ class port_scanner:
 		except socket.gaierror:
 			port_scanner.clear()
 			print("\n")
-			print(colors_.BOLD + " [" + colors_.R + "-" + colors_.RESET + colors_.BOLD + "] " + colors_.RESET + colors_.R + "Hostname could not be resolved. Exiting" + colors_.RESET + "\n")
+			print(colors_.BOLD + " [" + colors_.R + "-" + colors_.RESET + colors_.BOLD + "] " + colors_.RESET + colors_.R + "Host could not be resolved" + colors_.RESET + "\n")
 			sys.exit()
 		
 		# checks socket error
